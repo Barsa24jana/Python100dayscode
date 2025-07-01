@@ -14,5 +14,7 @@ if step_1 == "left":
         step_3 = input("Which door you want choose? red,blue or yellow:\n")
         if step_3 == "yellow":
             print("Yahoo! You have win the game. Congarts💃🕺")
+        else:
+            print("You have chosen wrong, game over")
 else:
     print("Game Over")
