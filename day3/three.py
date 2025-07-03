@@ -15,6 +15,8 @@ if step_1 == "left":
         if step_3 == "yellow":
             print("Yahoo! You have win the game. Congarts💃🕺")
         else:
-            print("You have chosen wrong, game over")
+            print("oops!You have chosen wrong, game over")
+    else:
+        print("You have eaten by a crocodile. Game Over")
 else:
     print("Game Over")
